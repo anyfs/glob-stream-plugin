@@ -1,0 +1,28 @@
+{
+  "name": "anyfs-glob-stream-plugin",
+  "version": "0.1.0",
+  "description": "glob-stream plugin for AnyFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyfs/glob-stream-plugin.git"
+  },
+  "author": "Liu Dong <ddliuhb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anyfs/glob-stream-plugin/issues"
+  },
+  "homepage": "https://github.com/anyfs/glob-stream-plugin",
+  "dependencies": {
+    "extend": "^2.0.0",
+    "anyfs-glob-plugin": "*",
+    "minimatch": "^2.0.1",
+    "ordered-read-streams": "^0.2.0",
+    "glob2base": "^0.0.12",
+    "unique-stream": "^2.0.2",
+    "through2": "^0.6.1"
+  }
+}
